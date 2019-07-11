@@ -1,0 +1,50 @@
+body{
+    
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100vh;
+    float: left;
+    font-family: "Helvetica Neue",Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.42;
+    color: #333;
+    background-color: #fff
+
+}
+header{
+    width: 100vh
+}
+.fancy-menu{
+
+    display: flex;
+    flex-direction: row
+}
+
+.fancy-menu .logo{
+    float: left;
+    width: 10vh
+}
+
+.logo img{
+    width: 100%
+
+}
+
+nav {
+    width: 100vh
+}
+
+ul{
+    display: flex;
+    flex-direction: row
+}
+
+li{
+    list-style: none;
+}
+
+.fancy-menu ul li a {
+    text-decoration: none;
+    font: 600, 16px, "lato";
+}
